@@ -1,0 +1,621 @@
+body{
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.max-width-value{
+    max-width: 1200px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    
+}
+.grey-background{
+    background-color: #f6f6f6;
+}
+.roundborder{
+    border-radius: 2px;
+}
+.roundborder-top{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+img{
+    border-radius: 2px;
+}
+
+.shadow{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.border-right-bottom{
+    border-bottom-right-radius: 2px;
+}
+.border-left-bottom{
+    border-bottom-left-radius: 2px;
+}
+.height-auto{
+    height: auto;
+}
+.max-width{
+    max-width: 992px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+button{
+    margin: 10px 0px;
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    border: 1px solid #76C2D3;
+    border-radius: 2px;
+    color: #76C2D3;
+}
+
+button:hover{
+    background-color: #76C2D3;
+    color: #fff;
+    
+}
+
+.btn-border{
+    width: 90%;
+    background-color: #76C2D3;
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 3px solid #2F8498; 
+}
+
+.form-button{
+    padding: 15px 10px;
+    width:90%;
+       background-color: #76C2D3;
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 3px solid #2F8498; 
+}
+h1{
+    font-weight: 500px;
+    font-size:32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 500;
+    color:#333;
+}
+
+h4{
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a li{
+    color: #fff;
+}
+
+.separator{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #76C2D3;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.navbar{
+    margin: 0px;
+    background-color: #084460;
+    border: none;
+      
+}
+.navbar-nav{
+    margin: 0px;
+}
+
+.navbar-brand{
+    padding: 16px 15px;
+}
+
+.navbar li a{
+    color: #fff !important;
+    padding: 20px; 
+    border-bottom: 1px solid #fff;
+    opacity: .7;
+}
+
+.navbar li a:hover{
+    opacity: 1;
+}
+
+.navbar-toggle{
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+}
+
+.navbar-toggle:hover{
+   background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-collapse{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #084460;
+}
+#spanish{
+    background-color: #fff;
+    opacity: 1;
+    color: #000 !important;
+}
+.spanish-icon{
+    padding-left: 10px;
+    margin-top: -2px;
+    margin-left: -100px;
+}
+#spanish-text{
+    padding-left: 15px;
+    margin-top: -25px;
+}
+
+
+
+.logo{
+    height: 35px;
+    width: auto;
+    margin-top: -2px;
+    padding: 0px;
+}
+
+.logo-text{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-left: 0px;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+}
+.container{
+    
+}
+.hero{
+    display: block;
+    height: 300px;
+    margin-top: 0px;
+    background-image:url(TopHeader.png);
+    background-size: cover;
+    background-position: top right;
+}
+
+.hero-text h2{
+    text-align: center;
+    padding-top: 30px;
+    color: #000;
+    
+}
+
+.about{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.solutions{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+.solution-item-1{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.solution-item-2{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+.solution-item-3{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+.products{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px; 
+}
+
+
+.products-header-1{
+       background-image: url(Products-Nutrients.jpg);
+    background-size:cover;
+    height: 200px;
+}
+
+.products-header-2{
+    background-image: url(Products-Frings%20.jpg);
+    background-size:cover;
+    height: 200px;
+}
+
+.product-item{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    
+}
+
+.product-item h2{
+    text-transform: uppercase;
+}
+
+.product-item h4{
+    text-transform: uppercase;
+}
+.products-secondary{
+    margin-bottom: 20px;
+}
+#products-2{
+    padding-top: 30px;
+}
+.value{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+.value-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #76C2D3; 
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.value-image{
+    padding: 0px;
+}
+.value-1{
+    padding-right: 0px;
+    border: 2px solid #000;
+}
+ .kosher-image{
+        padding: 0px !important; 
+    }
+
+.shipping-box{
+    margin-bottom: 20px;
+}
+#contact{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.contact-image{
+    margin-bottom: 20px;
+}
+
+.module-title{
+    margin-bottom: 20px !important;
+    letter-spacing: normal !important;
+    color: #333 !important;
+}
+
+.contact-info{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact-info-item{
+    margin-top: 20px; 
+}
+
+.contact-info-item a{
+    color:  #084460;
+}
+
+.contact-info-item a:hover{
+    color: #76C2D3;
+}
+
+.footer{
+    background-color: #084460 !important; 
+}
+@media (min-width : 768px) 
+and (max-width : 992px){
+      .spanish-product-button{
+        bottom: 0 !important;
+    }
+    .sp-button-1{
+    margin-top: 10px !important
+}
+}
+
+
+@media (min-width: 768px) {
+.btn-border{
+    width: auto;
+}
+    
+.navbar{
+    margin: 0px;
+    background-color: #084460;
+    border: none;
+    border-radius: 0px;
+      
+}
+.navbar-nav{
+    margin: 0px;
+}
+.navbar-brand{
+
+}
+
+.navbar li a{
+    color: #fff !important;
+    padding: 18px 20px; 
+    border-bottom: none;
+    opacity: .7;
+}
+
+.navbar li a:hover{
+    opacity: 1;
+}
+    
+#spanish{
+    background-color: transparent;
+    opacity: .7;
+    color: #fff !important;
+}    
+
+    #spanish:hover{
+        opacity: 1;
+    }
+
+.hero{
+    display: block;
+    height: 500px;
+    margin-top: 0px;
+    background-size: cover;
+    
+}
+
+.hero-text h2{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 992px;
+    text-align: left;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #000;
+    font-size: 30px;
+    
+}    
+.solutions img{
+    border-radius: 2px;
+}    
+    
+img{
+    border-radius: 20px !important;
+}
+    
+.sp-min-height{
+    min-height: 425px;
+}
+    
+.sp-button-1{
+    margin-top: 35px;
+}
+    
+ .solutions{
+     width: auto;
+     margin: 0px;
+     padding: 0px;
+}
+
+.solution-item-1 {
+    position: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+    .solution-item-2 {
+    position: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+ .solution-item-3 {
+    position: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+    
+.solution-item-three button{
+    position: relative;
+    margin-top: 40px;
+}
+
+.products{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+    
+.products-header-1{
+       background-image: url(Products-Nutrients-desktop.png);
+    background-size:cover;
+    height: 200px;
+}
+
+.products-header-2{
+    background-image: url(Products-Frings-desktop.png);
+    background-size:cover;
+    height: 200px;
+}
+.product-item{
+    position: relative;
+    min-height: 275px;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+    
+}
+
+.spanish-product-button-2{
+    max-width: 40%; !important;
+    bottom: 50px !important;
+    left: 30%;
+}
+    
+.spanish-frings-button{
+    bottom: 50px !important;
+}
+    
+.product-item button{
+    line-height: 18px;
+    width: 60%;
+    min-height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20%;
+    
+}    
+
+.value{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}
+h1{
+    margin-bottom: 30px;
+}
+
+.value-item{
+    padding: 0px 40px 0px 40px;;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    line-height: normal;
+    
+}
+.value-row{
+    padding: 0px;
+     margin-top:50px;   
+    }
+
+.value-image{
+    padding-left: 0px;
+    margin: 0px;
+}
+    .kosher-image{
+        padding: 0px !important;
+        
+    }
+    
+    
+.kosher-box{
+    margin-top: 0px;
+    padding: 0px 20px 10px 20px;
+}
+
+.qa-box{
+    margin-top: 0px;
+    padding: 40px;
+}
+    
+.packaging-box {
+    margin-top: 0px;
+    padding: 40px;
+}
+    
+.shipping-box{
+    padding: 40px;
+    margin-top: 0px;
+}
+    
+/*#contact{
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+}*/
+    
+.contact-section{
+    max-height: 400px;
+}
+    
+.contact-image{
+    margin-bottom: 20px;
+}
+.module-title{
+    margin-bottom: 20px !important;
+    letter-spacing: normal !important;
+    color: #333 !important;
+}
+
+.contact-info{
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+    
+.contact-info-item{
+    margin-top: 20px; 
+}
+    .form-button{
+    width:100%;
+}
+
+    
+}
+@media (min-width: 1200px) {
+    .hero{
+    display: block;
+    height: 600px;
+    margin-top: 0px;
+    background-size: cover;   
+}
+    .hero-text h2{
+        padding-top: 180px;
+    }
+
+    
+    
+    
+}
